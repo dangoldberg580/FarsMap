@@ -5,9 +5,9 @@
 #' for one state for a particular year
 #'
 #' @title MapByState
-#' @importFrom maps map
 #' @importFrom dplyr filter
 #' @importFrom graphics points
+#' @import maps
 #' @param state.num State number as defined in the csv file - should be an integer
 #'    between 1 and 50
 #' @param year Year to be queried for number of accidents - should be an integer
