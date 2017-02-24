@@ -19,4 +19,5 @@ and plots the number of traffic fatalities in a map of that state.
  fars_map_state(12, 2015)
 ```
 
-https://travis-ci.org/dangoldberg580/FarsMap.svg?branch=master
+[![Build Status](https://travis-ci.org/dangoldberg580/FarsMap.svg?branch=master)](https://travis-ci.org/dangoldberg580/FarsMap)
+
