@@ -21,6 +21,3 @@ Not user-facing
 
 Will throw an error if the year being passed in not in the filenames available
 }
-\examples{
-   fars_read_years(2015)
-}

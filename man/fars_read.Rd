@@ -23,6 +23,3 @@ Not user-facing
 
 will throw an error if the filename doesn't exist in the path
 }
-\examples{
-   fars_read("accident_2014.csv.bz2")
-}

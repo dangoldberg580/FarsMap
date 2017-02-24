@@ -80,8 +80,6 @@ fars_summarize_years <- function(years) {
 #'    input should be a text string
 #' @details will throw an error if the filename doesn't exist in the path
 #' @return This function returns a data frame read from the input file
-#' @examples
-#'    fars_read("accident_2014.csv.bz2")
 
 fars_read <- function(filename) {
         filename <- system.file("extdata", filename, package = "FarsMap")
@@ -103,8 +101,6 @@ fars_read <- function(filename) {
 #' @param year Parameter is passed from the fars_read_years function
 #'   input that is passed should be able to be converted to an integer
 #' @return Creates a string for the filename
-#' @examples
-#'    make_filename(2015)
 
 make_filename <- function(year) {
         year <- as.integer(year)
@@ -123,8 +119,6 @@ make_filename <- function(year) {
 #' @param years Parameter is passed from the fars_summarize_years function - should be an integer
 #' @details Will throw an error if the year being passed in not in the filenames available
 #' @return Selects all of the months for the year being requested
-#' @examples
-#'    fars_read_years(2015)
 
 fars_read_years <- function(years) {
         lapply(years, function(year) {

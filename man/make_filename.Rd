@@ -21,6 +21,3 @@ Take the year input by the user and creates a string to map to
 the file to be read - for that year.
 Not user-facing
 }
-\examples{
-   make_filename(2015)
-}
